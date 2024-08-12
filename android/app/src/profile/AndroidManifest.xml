@@ -1,0 +1,52 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.minmalecommerce">
+
+    <!-- The INTERNET permission is required for development. Specifically,
+         the Flutter tool needs it to communicate with the running application
+         to allow setting breakpoints, to provide hot reload, etc.
+    -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    
+    <!-- Adding metadata and permissions for Firebase -->
+    <application
+        android:name=".MyApplication"
+        android:label="minmalecommerce"
+        android:icon="@mipmap/ic_launcher">
+
+        <!-- Firebase Analytics -->
+        <meta-data
+            android:name="com.google.firebase.analytics.APP_ID"
+            android:value="1:209162912284:android:ceeb8ac3db5089ac8415d9"/>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-xxxxxxxxxxxxxxxx~yyyyyyyyyy"/>
+
+        <!-- Enable Firebase Auth -->
+        <meta-data
+            android:name="com.google.firebase.auth.api.gms.config"
+            android:value="@xml/auth_config"/>
+
+        <!-- Add your own services and metadata as required -->
+        <!-- This is where other Firebase service metadata can go -->
+        
+        <!-- Ensure this activity is defined if you use Flutter -->
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/LaunchTheme"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode|orientation"
+            android:hardwareAccelerated="true"
+            android:windowSoftInputMode="adjustResize">
+            <meta-data
+                android:name="io.flutter.embedding.android.NormalTheme"
+                android:resource="@style/NormalTheme"
+                />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

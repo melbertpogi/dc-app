@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "209162912284",
+    "project_id": "online-shop-b3209",
+    "storage_bucket": "online-shop-b3209.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:209162912284:android:ceeb8ac3db5089ac8415d9",
+        "android_client_info": {
+          "package_name": "com.example.minmalecommerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "209162912284-bt47ckru9nhg8om6teu5o1suu1s70ig2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.minmalecommerce",
+            "certificate_hash": "a2aaf1097bd44a5a6998a9ed3b7c45d0471d1445"
+          }
+        },
+        {
+          "client_id": "209162912284-d14f9nf309oprsf6as1kbi1tr8v7hk2c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.minmalecommerce",
+            "certificate_hash": "34ad726e3a2ab3b5228108e97d5d8e8dc8272943"
+          }
+        },
+        {
+          "client_id": "209162912284-nqeih635n6giv42v9p9n5nsop3n6dqbr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.minmalecommerce",
+            "certificate_hash": "5337795e2a90b16d16063018d7ba9142bb593e09"
+          }
+        },
+        {
+          "client_id": "209162912284-olaqq3n2a8d017jo3eskrtm15aj812g8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.minmalecommerce",
+            "certificate_hash": "04763849729a354d44ddc9e47f75a2bab07c1381"
+          }
+        },
+        {
+          "client_id": "209162912284-q1ahsrp8g6pqd7h1kui79ann75c7u82i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.minmalecommerce",
+            "certificate_hash": "810df53c38d627b079a340e5fabc96984c84752f"
+          }
+        },
+        {
+          "client_id": "209162912284-ug1ovsnat6qffbern449huq60sta1aot.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkFzClzoYCayLztYXOQ53xm7cIQZvDOdk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "209162912284-ug1ovsnat6qffbern449huq60sta1aot.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "209162912284-1kqodi2ff7bfaaf0ce1bfaimq081k6dq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.minmalecommerce"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
